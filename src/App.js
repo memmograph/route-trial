@@ -16,7 +16,7 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + "/"} component={About} />
           <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
           <Route exact path={process.env.PUBLIC_URL + "/discover"} component={Discover} />
-          <Route exact path="/search" component={Search} />
+          <Route exact path={process.env.PUBLIC_URL + "/search"} component={Search} />
         </Wrapper>
         <Footer />
       </div>
