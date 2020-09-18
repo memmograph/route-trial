@@ -9,7 +9,7 @@ function About() {
     <div>
       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
+        <h2>They're the Good Boys and Girls this is a test to see if it is working at all</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
