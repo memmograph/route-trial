@@ -13,7 +13,7 @@ function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to={process.env.PUBLIC_URL + "/"}
+              to={process.env.PUBLIC_URL + "/about"}
               className={
                 window.location.pathname === "/" || window.location.pathname === "/about"
                   ? "nav-link active"
@@ -33,7 +33,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/search"
+              to={process.env.PUBLIC_URL + "/search"}
               className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
             >
               Search
